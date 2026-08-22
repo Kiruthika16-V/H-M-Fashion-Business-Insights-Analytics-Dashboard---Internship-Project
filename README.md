@@ -11,6 +11,14 @@ A Power BI-based retail analytics project that analyzes category performance, sa
 5.RFM Analysis — customer segmentation (Recency, Frequency, Monetary)
 6.Market Basket Analysis — cross-7.category purchase patterns
 
+# Data Source
+This project uses the H&M Personalized Fashion Recommendations dataset from Kaggle.
+The raw dataset is not included in this repository due to its size and licensing terms. To reproduce this analysis:
+Download the dataset from the link above.
+Place the files in a local data/ folder.
+Open the .pbix file in Power BI and refresh the data source to point to your local files.
+A small cleaned sample is included in data/sample/ for reference on the data schema and structure.
+
 # Key Insights
 1.79% of revenue comes from just 3 categories — Upper Body, Lower Body, and Full Body are the major revenue-driving categories.
 2.June and September show strong seasonal sales spikes.
